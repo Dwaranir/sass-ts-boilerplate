@@ -1,0 +1,18 @@
+@mixin center-items-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+@mixin reset-horizontal-margin{
+    margin: inherit 0;
+}
+
+@mixin reset-vertical-margin{
+    margin: 0 inherit;
+}
+
+@mixin reset-anchor{
+    text-decoration: none;
+    color: inherit;
+}
