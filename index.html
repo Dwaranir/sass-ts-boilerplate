@@ -6,10 +6,53 @@
     <title>Sass + TS</title>
   </head>
   <body>
-    <div id="app">
-      <div>
-        <h1>Sass + TypeScript</h1>
-      </div>
+    <div class="app__container" id="app">
+        <header class="header__container">
+          <h1 class="header__heading"></h1>
+          <p class="header__date"></p>
+        </header>
+        <ul class="currencies__list">
+          <li class="currencies__item currencies__item-odd">
+            <div class="currencies__item-main-info-container">
+              <h2 class="currencies__item-main-info-heading">Bitcoin</h2>
+              <h2 class="currencies__item-main-info-heading">$16202</h2>
+            </div>
+            <div class="currencies__item-additional-info-container">
+              <h3 class="currencies__item-additional-info-heading">BTC</h3>
+              <h3 class="currencies__item-additional-info-changes">-2.31% (-373.64)</h3>
+            </div>
+          </li>
+          <li class="currencies__item currencies__item-even">
+            <div class="currencies__item-main-info-container">
+              <h2 class="currencies__item-main-info-heading">Bitcoin</h2>
+              <h2 class="currencies__item-main-info-heading">$16202</h2>
+            </div>
+            <div class="currencies__item-additional-info-container">
+              <h3 class="currencies__item-additional-info-heading">BTC</h3>
+              <h3 class="currencies__item-additional-info-changes">-2.31% (-373.64)</h3>
+            </div>
+          </li>
+          <li class="currencies__item currencies__item-odd">
+            <div class="currencies__item-main-info-container">
+              <h2 class="currencies__item-main-info-heading">Bitcoin</h2>
+              <h2 class="currencies__item-main-info-heading">$16202</h2>
+            </div>
+            <div class="currencies__item-additional-info-container">
+              <h3 class="currencies__item-additional-info-heading">BTC</h3>
+              <h3 class="currencies__item-additional-info-changes">-2.31% (-373.64)</h3>
+            </div>
+          </li>
+          <li class="currencies__item currencies__item-even">
+            <div class="currencies__item-main-info-container">
+              <h2 class="currencies__item-main-info-heading">Bitcoin</h2>
+              <h2 class="currencies__item-main-info-heading">$16202</h2>
+            </div>
+            <div class="currencies__item-additional-info-container">
+              <h3 class="currencies__item-additional-info-heading">BTC</h3>
+              <h3 class="currencies__item-additional-info-changes">-2.31% (-373.64)</h3>
+            </div>
+          </li>
+        </ul>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
